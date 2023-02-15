@@ -22,6 +22,10 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
+<<<<<<< Updated upstream
     pattern: "{controller=Home}/{action=Login}/{id?}");
+=======
+    pattern: "{controller=Pages}/{action=Login}/{id?}");
+>>>>>>> Stashed changes
 
 app.Run();

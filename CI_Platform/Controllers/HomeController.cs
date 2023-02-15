@@ -1,8 +1,8 @@
-﻿using CI_Platform.Models;
+﻿using CI_Platform_web.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace CI_Platform.Controllers
+namespace CI_Platform_web.Controllers
 {
     public class HomeController : Controller
     {
@@ -13,7 +13,11 @@ namespace CI_Platform.Controllers
             _logger = logger;
         }
 
+<<<<<<< Updated upstream
         public IActionResult Login()
+=======
+        public IActionResult Index()
+>>>>>>> Stashed changes
         {
             return View();
         }

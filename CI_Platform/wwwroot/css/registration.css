@@ -5,9 +5,10 @@
 
 body{
     color: #414141;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Sans';
 }
 
+<<<<<<< Updated upstream
 .form-label{
     font-size: 16px;
 }
@@ -22,18 +23,40 @@ body{
     box-shadow: 0 0 10px #2B64B11F;
 }
 
+=======
+.carousel-inner img {
+    width: 100%;
+    height: 100vh;
+}
+
+.form-label{
+    font-size: 16px;
+}
+
+>>>>>>> Stashed changes
 #register-btn{
     background-color: transparent;
     border: 2px solid #F88634;
     color: #F88634;
     border-radius: 24px;
     font-size: 17px;
+    width: 100%;
 }
+<<<<<<< Updated upstream
 
 #lost-password{
+=======
+#register-btn:hover{
+    color: #ffff;
+    background-color: #F88634;
+}
+#lost-password-div{
+>>>>>>> Stashed changes
     font-size: 14px;
+    text-align: center;
 }
 
+<<<<<<< Updated upstream
 #forgotpassword{
     text-decoration: none;
     color: #414141;
@@ -58,3 +81,31 @@ body{
 #privacy-policy{
     font-size: 14px;
 }
+=======
+#lost-password{
+    text-decoration: none;
+    color: #414141;
+}
+#lost-password-div p a{
+    text-decoration: none;
+}
+
+@media screen AND (max-width:991px) {
+    .row {
+        margin-top: 10px;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen AND (max-width:767px) {
+    .carousel-inner img {
+        margin: 5px;
+        width: 100%;
+    }
+}
+
+>>>>>>> Stashed changes
